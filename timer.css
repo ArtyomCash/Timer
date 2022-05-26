@@ -79,12 +79,14 @@
 .results_info {
     margin: 10px 0;
 }
-.hour_timer,
-.day_timer,
-.minute_timer,
-.day {
+
+.day,
+.hour_t,
+.minute_t,
+.seconds {
     margin-right: 10px;
 }
+
 .timer_box {
     display: flex;
 }

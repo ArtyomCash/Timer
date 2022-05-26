@@ -114,61 +114,62 @@ disableBtn();
 
 /*--------------------------------------*/
 
-const weekTimer = document.querySelector('.day');
-const dayTimer = document.querySelector('.day_timer');
-const hourTimer = document.querySelector('.hour_timer');
-const timerMinutes = document.querySelector('.minute_timer');
+const day = document.querySelector('.day');
+const hourT = document.querySelector('.hour_t');
+const minuteT = document.querySelector('.minute_t');
+const seconds = document.querySelector('.seconds');
 
 const titleTimer = document.querySelector('.title_timer');
 
-const puskButton = document.querySelector('.pusk');
+const startButtonT = document.querySelector('.start_t');
+
 const stopButtonTimer = document.querySelector('.stop_timer');
 const reloadButtonTimer = document.querySelector('.reload_timer');
 
 let minuteTimer = 60;
-let hourTimerBack = 24;
-let dayTimerTimerBack = 1;
-let weekTimerTimerBack = 1;
+let minuteTBack = 24;
+let hourTTimerBack = 1;
+let hourTBack = 1;
 let titleTimerChang = 'До конца акции 1 день';
 const endStock = 'Акция закончилась !!!';
 let clearOllData;
 
-weekTimer.innerText = weekTimerTimerBack;
-timerMinutes.innerText = minuteTimer;
-hourTimer.innerText = hourTimerBack;
-dayTimer.innerText = dayTimerTimerBack;
+day.innerText = hourTBack;
+seconds.innerText = minuteTimer;
+minuteT.innerText = minuteTBack;
+hourT.innerText = hourTTimerBack;
 titleTimer.innerText = titleTimerChang;
 
 function puskTimer() {
     minuteTimer--;
-    timerMinutes.innerText = minuteTimer;
+    seconds.innerText = minuteTimer;
     if (minuteTimer === 0) {
-        hourTimerBack--;
-        hourTimer.innerText = hourTimerBack;
+        minuteTBack--;
+        minuteT.innerText = minuteTBack;
         minuteTimer = 60;
         titleTimer.innerText = titleTimerChang;
     }
 
-    if (hourTimerBack === 0) {
-        dayTimerTimerBack--;
-        dayTimer.innerText = dayTimerTimerBack;
-        hourTimerBack = 24;
+    if (minuteTBack === 0) {
+        hourTTimerBack--;
+        hourT.innerText = hourTTimerBack;
+        minuteTBack = 24;
     }
 
-    if (dayTimerTimerBack === 0) {
-        weekTimerTimerBack--;
-        weekTimer.innerText = weekTimerTimerBack;
-        dayTimerTimerBack = 1;
+    if (hourTTimerBack === 0) {
+        hourTBack--;
+        day.innerText = hourTBack;
+        hourTTimerBack = 1;
     }
 
-    if (weekTimerTimerBack === 0) {
+    if (hourTBack === 0) {
         titleTimer.innerText = endStock;
         clearInterval(clearOllData);
     }
 
 }
 
-puskButton.addEventListener('click', () => {
+startButtonT.addEventListener('click', () => {
     clearInterval(clearOllData);
     clearOllData = setInterval(puskTimer, 10)
 });
@@ -184,14 +185,14 @@ reloadButtonTimer.addEventListener('click', () => {
 
 function clearTimer() {
     minuteTimer = 60;
-    hourTimerBack = 24;
-    dayTimerTimerBack = 1;
-    weekTimerTimerBack = 1;
+    minuteTBack = 24;
+    hourTTimerBack = 1;
+    hourTBack = 1;
 
-    timerMinutes.textContent = '60';
-    hourTimer.textContent = '24';
-    dayTimer.textContent = '1';
-    weekTimer.textContent = '1';
+    seconds.textContent = '60';
+    minuteT.textContent = '24';
+    hourT.textContent = '1';
+    day.textContent = '1';
     titleTimer.textContent = titleTimerChang;
 }
 
