@@ -1,0 +1,84 @@
+.container {
+    width: 60%;
+    height: 100%;
+    margin: 150px auto 0;
+}
+.timer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.timer_block {
+    width: 150px;
+    border-radius: 5px;
+}
+.time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rebeccapurple;
+    color: white;
+    height: 95px;
+    font-size: 95px;
+}
+.title {
+    background-color: green;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto 150px;
+    max-width: 800px;
+}
+.button {
+    border: none;
+    width: 180px;
+    border-radius: 10px;
+    padding: 10px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.start:hover {
+    background-color: blue;
+    color: red;
+}
+.stop:hover {
+     background-color: blue;
+     color: red;
+}
+.pause:hover {
+    background-color: red;
+    color: white;
+}
+.new:disabled {
+    background: none;
+    cursor: not-allowed;
+}
+
+.result_block {
+    position: absolute;
+    left: 15px;
+    bottom: 0;
+    width: 250px;
+    border: 1px solid green;
+    color: red;
+    font-size: 18px;
+    padding: 15px;
+    text-align: center;
+}
+.results_info {
+    margin: 10px 0;
+}
+.hour_timer,
+.day_timer,
+.minute_timer {
+    margin-right: 10px;
+}
+.timer_box {
+    display: flex;
+}

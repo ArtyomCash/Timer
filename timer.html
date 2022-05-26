@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="timer.css">
+</head>
+<body>
+
+  <section>
+    <div class="container">
+      <div class="timer">
+
+        <div class="timer_block">
+          <div class="time hour">00</div>
+          <div class="title">hour</div>
+        </div>
+
+        <div class="timer_block">
+          <div class="time minute">00</div>
+          <div class="title">minute</div>
+        </div>
+
+        <div class="timer_block">
+          <div class="time second">00</div>
+          <div class="title">second</div>
+        </div>
+
+        <div class="timer_block">
+          <div class="time millisecond">00</div>
+          <div class="title">millisecond</div>
+        </div>
+      </div>
+
+      <div class="buttons">
+        <button class="button start">Start</button>
+        <button class="button pause">Pause</button>
+        <button class="button stop">Stop</button>
+        <button class="button new">New</button>
+      </div>
+    </div>
+    <div class="result_block">
+      <div class="result_title">Result</div>
+      <div class="result"></div>
+    </div>
+  </section>
+  <footer>
+    <h1 class="title_timer"></h1>
+    <section class="timer_box">
+      <div class="day_timer"></div>
+      <div class="hour_timer"></div>
+      <div class="minute_timer"></div>
+      <div class="second_timer"></div>
+    </section>
+    <button class="pusk">пуск</button>
+    <button class="stop_timer">стоп</button>
+    <button class="reload_timer">Перезапустить</button>
+  </footer>
+  <script src="timer.js"></script>
+</body>
+</html>
+
