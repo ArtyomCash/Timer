@@ -1,58 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c900ef08-1dfa-4192-b1d4-f97438a5095e" name="Default Changelist" comment="" />
+    <list default="true" id="16e672a0-b1f5-484b-bd0b-bba426d0605d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="HTML File" />
-        <option value="CSS File" />
-        <option value="JavaScript File" />
-      </list>
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="29bQbnXfWYGNekZcvQwgNpPOnsr" />
+  <component name="ProjectId" id="29hRVmv4tk9nZIhePUx32oMShyV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/JavaScript/Timer" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c900ef08-1dfa-4192-b1d4-f97438a5095e" name="Default Changelist" comment="" />
-      <created>1653379378386</created>
+      <changelist id="16e672a0-b1f5-484b-bd0b-bba426d0605d" name="Default Changelist" comment="" />
+      <created>1653563356509</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1653379378386</updated>
-      <workItem from="1653379379920" duration="16258000" />
-      <workItem from="1653463845161" duration="1685000" />
-      <workItem from="1653478933672" duration="12320000" />
-      <workItem from="1653546522276" duration="6849000" />
+      <updated>1653563356509</updated>
+      <workItem from="1653563357986" duration="578000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="551" y="164" key="FileChooserDialogImpl" timestamp="1653563354903">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="551" y="164" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1653563354903" />
   </component>
 </project>
