@@ -76,7 +76,8 @@
 }
 .hour_timer,
 .day_timer,
-.minute_timer {
+.minute_timer,
+.week_timer {
     margin-right: 10px;
 }
 .timer_box {
