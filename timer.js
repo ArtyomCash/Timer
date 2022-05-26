@@ -113,10 +113,12 @@ function disableBtn() {
 disableBtn();
 
 /*--------------------------------------*/
-const timerMinutes = document.querySelector('.minute_timer');
-const hourTimer = document.querySelector('.hour_timer');
+
+const weekTimer = document.querySelector('.day');
 const dayTimer = document.querySelector('.day_timer');
-const weekTimer = document.querySelector('.week_timer');
+const hourTimer = document.querySelector('.hour_timer');
+const timerMinutes = document.querySelector('.minute_timer');
+
 const titleTimer = document.querySelector('.title_timer');
 
 const puskButton = document.querySelector('.pusk');
